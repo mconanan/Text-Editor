@@ -5,11 +5,6 @@ const { InjectManifest } = require('workbox-webpack-plugin');
 const { GenerateSW } = require('workbox-webpack-plugin');
 
 // TODO: Add and configure workbox plugins for a service worker and manifest file.
-// plugins: 
-
-
-
-
 // TODO: Add CSS loaders and babel to webpack.
 
 module.exports = () => {
@@ -45,8 +40,6 @@ module.exports = () => {
         name: 'Text Editor',
         short_name: 'Editor',
         description: 'Just another text editor!',
-        // background_color: '#',
-        // theme_color: '#',
         start_url: './',
         publicPath: './',
         icons: [
