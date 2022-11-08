@@ -1,2 +1,1 @@
-# Text-Editor
-Module 19 Challenge: Progressive Web App 
+# Text Editor Starter Code
